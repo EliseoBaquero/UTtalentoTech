@@ -91,6 +91,6 @@ Los resultados se acumulan por usuario creando un nuevo archivo riesgoalto.csv p
 Para ejecutar este proyecto, asegúrate de tener instaladas las siguientes dependencias:
 
 ```bash
-pip install pandas pysentimiento matplotlib seaborn scikit-learn nltk.
+pip install pandas pysentimiento matplotlib seaborn scikit-learn nltk xgboost.
 
 ---
