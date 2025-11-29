@@ -43,8 +43,9 @@ Se implementan algoritmos de **machine learning** y reglas heurísticas para det
 - Estructura de URLs.
 - Contenido del mensaje.
 - se usa el archivo phising.py
-- Se el Archivo BDcorreos.csv, se dividio el dataset para entrenamiento (80%) y para testeo (20%).
-- utilizo un XGBoost Model que dio las siguientes metricas.
+- El Archivo BDcorreos.csv, tiene cuato columnas y 2005 filas.
+- El mismo se dividio para entrenamiento (80%) y para testeo (20%).
+- Se utilizo un XGBoost Model que dio las siguientes metricas.
 - Se detecto que existian 28 emails con phising con las siguientes metricas.
 - Accuracy: 0.9975
 - Precision: 1.0000
