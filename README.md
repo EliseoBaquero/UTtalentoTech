@@ -22,7 +22,7 @@ Proyecto Hackathon de UTtalento Tech 2025, en una Base de Datos de correos se va
 | Eliseo Baquero         | [@eliseobaquero](https://github.com/eliseobaquero) |
 | Santiago Ramirez  | [@SantiagoRamirez](https://github.com/SantyR30) |
 | Nombre del miembro 2  | [@usuariogithub2](https://github.com/usuariogithub2) |
-
+| David Esteban Aranguren Cardozo  | [https://Soyesteban1.github.io/Portafolio/) |
 ## Proyecto
 Este proyecto está enfocado en la **detección de phishing**, **anonimización de datos sensibles**, **creación de tickets** y **análisis de riesgo de churn** para mejorar la seguridad y retención de clientes en la organización Vortex.
 
