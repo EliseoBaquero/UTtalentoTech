@@ -4,6 +4,7 @@ Proyecto Hackathon de UTtalento Tech 2025, en una Base de Datos de correos se va
 ---
 
 ## Tabla de Contenidos
+- [Equipo](#equipo)
 - [Proyecto](#proyecto)
 - [Explicación General](#explicación-general)
 - [Detección de Phishing](#detección-phishing)
@@ -14,6 +15,13 @@ Proyecto Hackathon de UTtalento Tech 2025, en una Base de Datos de correos se va
 - [Equipo](#equipo)
 
 ---
+## Equipo
+
+| Nombre                | Usuario de GitHub                          |
+|-----------------------|--------------------------------------------|
+| Eliseo Baquero         | [@eliseobaquero](https://github.com/eliseobaquero) |
+| Nombre del miembro 1  | [@usuariogithub1](https://github.com/usuariogithub1) |
+| Nombre del miembro 2  | [@usuariogithub2](https://github.com/usuariogithub2) |
 
 ## Proyecto
 Este proyecto está enfocado en la **detección de phishing**, **anonimización de datos sensibles**, **creación de tickets** y **análisis de riesgo de churn** para mejorar la seguridad y retención de clientes en la organización Vortex.
@@ -64,19 +72,10 @@ Los resultados se acumulan por usuario creando un nuevo archivo riesgoalto.csv p
 - se espera que la alta directiva ofrezca una solución a estos clientes.
 
 ---
-
 ## Requerimientos a Instalar
 Para ejecutar este proyecto, asegúrate de tener instaladas las siguientes dependencias:
 
 ```bash
-pip install pandas pysentimiento matplotlib seaborn scikit-learn nltk
+pip install pandas pysentimiento matplotlib seaborn scikit-learn nltk.
 
 ---
-
-## Equipo
-
-   Nombre                | Usuario de GitHub                          |
- |-----------------------|--------------------------------------------|
- | Eliseo Baquero         | [@eliseobaquero](https://github.com/eliseobaquero) |
- | Nombre del miembro 1  | [@usuariogithub1](https://github.com/usuariogithub1) |
- | Nombre del miembro 2  | [@usuariogithub2](https://github.com/usuariogithub2) |
