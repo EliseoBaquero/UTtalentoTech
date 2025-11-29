@@ -6,10 +6,10 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 df = pd.read_csv('BDcorreos.csv')
 
 phishing_keywords = [
-    "urgent", "verify account", "security alert", "action required",
-    "suspicious activity", "password update", "click here",
-    "confirm information", "account suspended", "unexpected activity",
-    "reset password", "payment failed"
+    "urgente", "verificar cuenta", "alerta de seguridad", "acción requerida",
+    "actividad sospechosa", "actualización de contraseña", "haga clic aquí",
+    "confirmar información", "cuenta suspendida", "actividad inesperada",
+    "restablecer contraseña", "pago fallido"
 ]
 
 def label_phishing(row):
