@@ -10,7 +10,7 @@ Proyecto Hackathon de UTtalento Tech 2025, en una Base de Datos de correos se va
 - [Detección de Phishing](#detección-phishing)
 - [Anonimización de Datos Sensibles](#anonimización-de-datos-sensibles)
 - [Creación de Tickets](#creación-de-tickets)
-- [Riesgo de Churn](#riesgo-churn)
+- [Riesgo de Churn](#riesgo-de-churn)
 - [Requerimientos a Instalar](#requerimientos-a-instalar)
 - [Equipo](#equipo)
 
