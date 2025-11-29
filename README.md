@@ -70,3 +70,13 @@ Para ejecutar este proyecto, asegúrate de tener instaladas las siguientes depen
 
 ```bash
 pip install pandas pysentimiento matplotlib seaborn scikit-learn nltk
+
+---
+
+## Equipo
+
+   Nombre                | Usuario de GitHub                          |
+ |-----------------------|--------------------------------------------|
+ | Eliseo Baquero         | [@eliseobaquero](https://github.com/eliseobaquero) |
+ | Nombre del miembro 1  | [@usuariogithub1](https://github.com/usuariogithub1) |
+ | Nombre del miembro 2  | [@usuariogithub2](https://github.com/usuariogithub2) |
