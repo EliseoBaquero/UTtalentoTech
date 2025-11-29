@@ -42,8 +42,8 @@ Se implementan algoritmos de **machine learning** y reglas heurísticas para det
 - Dominios sospechosos.
 - Estructura de URLs.
 - Contenido del mensaje.
-- se usa el archivo phising.py
-- El Archivo BDcorreos.csv, tiene cuato columnas y 2005 filas.
+- se usa el archivo 'phising.py'
+- El Archivo 'BDcorreos.csv', tiene cuato columnas y 2005 filas.
 - El mismo se dividio para entrenamiento (80%) y para testeo (20%).
 - Se utilizo un XGBoost Model que dio las siguientes metricas.
 - Se detecto que existian 28 emails con phising con las siguientes metricas.
@@ -59,9 +59,9 @@ Se implementan algoritmos de **machine learning** y reglas heurísticas para det
 Para proteger la privacidad de los usuarios, se aplican técnicas de anonimización a los datos, como:
 - **Tokenización**: Reemplazo de información sensible (correos o emails) por identificadores únicos por nuevo campo ID Usuario.
 - **Enmascaramiento**: Ocultar parcialmente datos (nombres personas y nombre empresa ejemplo: lina martinez por XY o System Bogota por XY).
-- se usa el archivo anonimizacion.py
-- se crea un primer archivo solo con los email, se eliminan los duplicados y se les crea a cada uno un numero de usuario unico BDUsuarios.csv
-- se genera un nuevo archivo despues de la anonimizacion BDanonimo_final.csv
+- se usa el archivo 'anonimizacion.py'
+- se crea un primer archivo solo con los email, se eliminan los duplicados y se les crea a cada uno un numero de usuario unico 'BDUsuarios.csv'
+- se genera un nuevo archivo despues de la anonimizacion 'BDanonimo_final.csv'
 
 ---
 
@@ -71,8 +71,8 @@ Se crea un diccionario de palabras automatiza la generación de tickets para:
 - Mantenimiento Evolutivo
 
 Los tickets se registran en una nueva columna Tipo_mantenimiento.
-- se usa el archivo ticket.py
-- se genera un archivo clasificacion.csv este incluye una columna de tipo_mantenimiento
+- se usa el archivo 'ticket.py'
+- se genera un archivo 'clasificacion.csv' este incluye una columna de tipo_mantenimiento
 ---
 
 ## Riesgo de Churn
@@ -80,7 +80,8 @@ Se analiza el sentimiento de los usuarios a partir de sus mensajes de correo par
 - **High Risk**: Usuarios con sentimiento negativo acumulado.
 - **Medium Risk**: Usuarios con sentimiento neutral o ligeramente negativo.
 - **Low Risk**: Usuarios con sentimiento positivo.
-
+- se usa el archivo 'senti.py'
+- para identificar el riesgo acumulado se usa el archivo 'riesgo.py'
 Los resultados se acumulan por usuario creando un nuevo archivo riesgoalto.csv para su posterior análisis:
 - `riesgoalto.csv`: Lista de usuarios con alto riesgo de churn.
 - se espera que la alta directiva ofrezca una solución a estos clientes.
