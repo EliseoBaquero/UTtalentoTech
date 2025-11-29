@@ -41,7 +41,16 @@ El proyecto integra múltiples herramientas y técnicas para:
 Se implementan algoritmos de **machine learning** y reglas heurísticas para detectar patrones sospechosos en correos electrónicos, mensajes o enlaces. Las características analizadas incluyen:
 - Dominios sospechosos.
 - Estructura de URLs.
-- Contenido del mensaje (palabras clave, urgencia, etc.).
+- Contenido del mensaje.
+- se usa el archivo phising.py
+- Se el Archivo BDcorreos.csv, se dividio el dataset para entrenamiento (80%) y para testeo (20%).
+- utilizo un XGBoost Model que dio las siguientes metricas.
+- Se detecto que existian 28 emails con phising con las siguientes metricas.
+- Accuracy: 0.9975
+- Precision: 1.0000
+- Recall: 0.8333
+- F1-Score: 0.9091
+- Se crea un nuevo archivo classified_emails.csv sin los email de phising.
 
 ---
 
@@ -49,6 +58,9 @@ Se implementan algoritmos de **machine learning** y reglas heurísticas para det
 Para proteger la privacidad de los usuarios, se aplican técnicas de anonimización a los datos, como:
 - **Tokenización**: Reemplazo de información sensible (correos o emails) por identificadores únicos por nuevo campo ID Usuario.
 - **Enmascaramiento**: Ocultar parcialmente datos (nombres personas y nombre empresa ejemplo: lina martinez por XY o System Bogota por XY).
+- se usa el archivo anonimizacion.py
+- se crea un primer archivo solo con los email, se eliminan los duplicados y se les crea a cada uno un numero de usuario unico BDUsuarios.csv
+- se genera un nuevo archivo despues de la anonimizacion BDanonimo_final.csv
 
 ---
 
@@ -58,7 +70,8 @@ Se crea un diccionario de palabras automatiza la generación de tickets para:
 - Mantenimiento Evolutivo
 
 Los tickets se registran en una nueva columna Tipo_mantenimiento.
-
+- se usa el archivo ticket.py
+- se genera un archivo clasificacion.csv este incluye una columna de tipo_mantenimiento
 ---
 
 ## Riesgo de Churn
