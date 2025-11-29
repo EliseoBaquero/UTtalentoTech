@@ -20,7 +20,7 @@ Proyecto Hackathon de UTtalento Tech 2025, en una Base de Datos de correos se va
 | Nombre                | Usuario de GitHub                          |
 |-----------------------|--------------------------------------------|
 | Eliseo Baquero         | [@eliseobaquero](https://github.com/eliseobaquero) |
-| Nombre del miembro 1  | [@usuariogithub1](https://github.com/usuariogithub1) |
+| Santiago Ramirez  | [@SantiagoRamirez](https://github.com/SantyR30) |
 | Nombre del miembro 2  | [@usuariogithub2](https://github.com/usuariogithub2) |
 
 ## Proyecto
